@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
 const GetInvolvedSection = () => {
-  return (
-    <section id="get-involved" className="py-20 px-4">
+  return <section id="get-involved" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
@@ -26,15 +24,15 @@ const GetInvolvedSection = () => {
                   Join our maker tribe, access tools, and pitch to founders. 
                   Turn your creative concepts into real prototypes.
                 </p>
-                <Button className="btn-primary w-full sm:w-auto">
-                  Join as Student
-                </Button>
+                
               </div>
             </CardContent>
           </Card>
           
           {/* Mentors/Founders Card */}
-          <Card className="card-hover fade-in-up border-none shadow-card" style={{ animationDelay: '200ms' }}>
+          <Card className="card-hover fade-in-up border-none shadow-card" style={{
+          animationDelay: '200ms'
+        }}>
             <CardContent className="p-8 text-center">
               <div className="mb-6">
                 <div className="w-20 h-20 mx-auto bg-gradient-primary rounded-full flex items-center justify-center mb-6">
@@ -47,16 +45,12 @@ const GetInvolvedSection = () => {
                   Support student innovators and connect with fresh talent. 
                   Share your expertise and help shape the next generation.
                 </p>
-                <Button className="btn-outline w-full sm:w-auto">
-                  Become a Mentor
-                </Button>
+                
               </div>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default GetInvolvedSection;
