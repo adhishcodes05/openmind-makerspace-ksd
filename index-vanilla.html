@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openmind by Kasaragod - Where bright ideas meet bold builders</title>
+    <meta name="description" content="Kasaragod's first makerspace connecting students and startup founders through hands-on innovation.">
+    <meta name="author" content="Openmind Kasaragod">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta property="og:title" content="Openmind by Kasaragod">
+    <meta property="og:description" content="Kasaragod's first makerspace connecting students and startup founders through hands-on innovation.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="fade-in-up">
+                <h1 class="hero-title">Openmind by Kasaragod</h1>
+                <p class="hero-subtitle">Where bright ideas meet bold builders</p>
+                <p class="hero-description">
+                    Kasaragod's first makerspace connecting students and startup founders through hands-on innovation.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('get-involved')">
+                        Join the Movement
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('programs')">
+                        Explore Programs
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6,9 12,15 18,9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="fade-in-up">
+                <h2 class="section-title">Who We Are</h2>
+                <p class="section-description">
+                    Openmind is a makerspace designed to unlock student creativity and make innovation 
+                    accessible in Kasaragod. We enable hands-on learning, connect students to real-world 
+                    founders, and help them launch impactful projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">What Happens Here</h2>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card fade-in-up" style="animation-delay: 0ms;">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Maker Lab</h3>
+                    <p class="program-description">DIY space for building prototypes with 3D printing, electronics, and fabrication tools</p>
+                </div>
+                
+                <div class="program-card fade-in-up" style="animation-delay: 100ms;">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Idea Showcase</h3>
+                    <p class="program-description">Pitch your innovative ideas to real founders and get valuable feedback</p>
+                </div>
+                
+                <div class="program-card fade-in-up" style="animation-delay: 200ms;">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="m22 21-3-3m0 0a2 2 0 0 0-3-3 2 2 0 0 0-3 3 2 2 0 0 0 3 3 2 2 0 0 0 3-3Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Founder Connect</h3>
+                    <p class="program-description">Network and mentorship opportunities with successful entrepreneurs</p>
+                </div>
+                
+                <div class="program-card fade-in-up" style="animation-delay: 300ms;">
+                    <div class="program-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Skill Workshops</h3>
+                    <p class="program-description">Learn robotics, coding, 3D design, and more through hands-on sessions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="get-involved" class="get-involved-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Get Involved</h2>
+            </div>
+            <div class="involved-grid">
+                <div class="involved-card fade-in-up" style="animation-delay: 0ms;">
+                    <div class="involved-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="m22 21-3-3m0 0a2 2 0 0 0-3-3 2 2 0 0 0-3 3 2 2 0 0 0 3 3 2 2 0 0 0 3-3Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="involved-title">Students</h3>
+                    <p class="involved-subtitle">Got ideas? Let's build them.</p>
+                    <p class="involved-description">Join our maker tribe, access tools, and pitch to founders.</p>
+                    <button class="btn btn-primary">Join as Student</button>
+                </div>
+                
+                <div class="involved-card fade-in-up" style="animation-delay: 200ms;">
+                    <div class="involved-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="m22 21-3-3m0 0a2 2 0 0 0-3-3 2 2 0 0 0-3 3 2 2 0 0 0 3 3 2 2 0 0 0 3-3Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="involved-title">Mentors/Founders</h3>
+                    <p class="involved-subtitle">Be a mentor, change a life.</p>
+                    <p class="involved-description">Support student innovators and connect with fresh talent.</p>
+                    <button class="btn btn-primary">Become a Mentor</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in-up" style="animation-delay: 0ms;">
+                    <p class="testimonial-quote">"This space helped me turn my project into a real product!"</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">— Arya</p>
+                        <p class="author-role">Student Innovator</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in-up" style="animation-delay: 200ms;">
+                    <p class="testimonial-quote">"Brilliant minds and real ideas — it's Kasaragod's innovation hub."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">— Jaseel</p>
+                        <p class="author-role">Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="fade-in-up">
+                <h2 class="contact-title">Let's build the future, together.</h2>
+                
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <p class="contact-text">Kasaragod, Kerala</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <p class="contact-text">openmindksd@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                        </svg>
+                        <p class="contact-text">@openmind_ksd</p>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <p class="footer-text">
+                        © 2024 Openmind by Kasaragod. Building tomorrow's innovators today.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll to top button -->
+        <button class="scroll-top-btn" onclick="scrollToTop()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="18,15 12,9 6,15"></polyline>
+            </svg>
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
